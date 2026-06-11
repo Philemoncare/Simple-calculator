@@ -1,0 +1,34 @@
+{
+  "name": "advanced-smart-calculator",
+  "version": "1.0.0",
+  "description": "A feature-rich advanced calculator with scientific functions, history, and more",
+  "main": "js/app.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "test": "jest"
+  },
+  "keywords": [
+    "calculator",
+    "scientific",
+    "advanced",
+    "smart",
+    "math"
+  ],
+  "author": "Philemoncare",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.22.0",
+    "@babel/preset-env": "^7.22.0",
+    "babel-loader": "^9.1.2",
+    "jest": "^29.5.0",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "decimal.js": "^10.4.3",
+    "math.js": "^11.11.0"
+  }
+}
